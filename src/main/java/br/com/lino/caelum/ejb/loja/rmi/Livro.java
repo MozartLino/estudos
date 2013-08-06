@@ -1,4 +1,4 @@
-package br.com.lino.exercicios.caelum.ejb.serializable;
+package br.com.lino.caelum.ejb.loja.rmi;
 
 import java.io.Serializable;
 
