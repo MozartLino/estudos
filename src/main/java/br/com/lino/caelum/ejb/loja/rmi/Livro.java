@@ -5,12 +5,13 @@ import java.io.Serializable;
 public class Livro implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private String nome;
 	private double preco;
 
-	public Livro(String nome) {
+	public Livro(String nome, double preco) {
 		this.nome = nome;
+		this.preco = preco;
 	}
 
 	public String getNome() {
@@ -20,9 +21,4 @@ public class Livro implements Serializable {
 	public double getPreco() {
 		return preco;
 	}
-
-	public void setPreco(double preco) {
-		this.preco = preco;
-	}
-
 }
